@@ -1,0 +1,248 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppings', sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+body a:hover{
+    color: blue;
+}
+
+.container {
+    display: flex;
+    width: auto;
+}
+
+.signPage {
+    position: absolute;
+    right: 0px;
+    left: 0px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0.125rem 1.5rem 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 42px;
+    width: 44%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.logoText {
+    padding-top: 0.8rem;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.logoText h3 {
+    padding-left: 16px;
+    color: rgb(0, 30, 80);
+    font-family: VWHeadWeb;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+.backLogin {
+    background-image: url("/assets/login_image.jpg");
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-position: 40% 0%;
+    position: absolute;
+    z-index: -1;
+    right: 0px;
+    overflow-x: hidden;
+}
+
+.volkz {
+    height: 50px;
+}
+
+
+.logoText h3 {
+    color: rgb(0, 30, 80);
+    font-size: 14px;
+    padding: 0.7rem;
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
+.intro h1 {
+    margin-top: 22px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 2rem;
+}
+
+.signText {
+    margin-top: 40px;
+
+
+}
+
+.place {
+    border-bottom: 1px solid grey;
+    margin-bottom: 1rem;
+    color: rgb(0, 30, 80);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+label {
+    font-size: 12px;
+
+}
+
+.inP {
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.lg {
+    margin: auto;
+}
+
+button {
+    width: 97px;
+    height: 43px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 2rem;
+    border: 1px solid #dfe4e8;
+    background-color: #dfe4e8;
+    color: #6a767d;
+}
+
+.accountRest{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+.accPass{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+
+}
+.accPass p{
+    font-size: 13px;
+    padding-right: 4px;
+    text-align: center;
+}
+.or{
+    padding-left: 4px;
+}
+.accPass a{
+    color:rgb(0, 30, 80);
+    font-weight: bold;
+    font-size: 13px;
+}
+.volksCreat a{
+    padding-left: 3px;
+    color: rgb(0, 30, 80);
+    font-weight: bold;
+    font-size: 13px;
+}
+.volksCreat{
+    text-align: center;
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.col{
+    display: flex;
+   gap: 22px;
+  padding: 3rem 0;
+  
+}
+.colOne{
+    width: 240px;
+    height: 119px;
+    box-sizing: content-box;
+    border: 1px solid grey;
+    text-align: center;
+    margin: auto;
+    padding-top: 49px;
+}
+.colOne p{
+    margin: auto;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 4px;
+    line-height: 13px;
+}
+
+.colOne a{
+color: rgb(0, 30, 80);
+font-weight: bold;
+font-size: 13px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ftOn{
+    align-items: center;
+}
+
+.ftOn a{
+    text-decoration: none;
+    color: rgb(0, 30, 80);
+    font-size: 12px;
+    text-align: center;
+}
+.footer p{
+    font-size: 11.4px;
+    margin-top: 4px;
+    text-align: center;
+}
+.footer span a{
+    text-decoration: none;
+    color: rgb(0, 30, 80);
+}
+@media  screen and (max-width: 961px) {
+
+    .container{
+        display: flex;
+        margin: auto;
+    }
+    .signPage{
+        width: auto;
+    }
+    
+    .colOne{
+        width: 589px;
+        height: 103px;
+    }
+    .footer{
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .backLogin{
+        display: none;
+    }
+
+    }
