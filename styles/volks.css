@@ -76,17 +76,17 @@ body a:hover{
 }
 
 .intro {
-    width: 50%;
+    width: 61%;
     margin: auto;
-    padding: 10px;
+    
 }
 
 .intro h1 {
     margin-top: 22px;
-    font-size: 22px;
+    font-size: 27px;
     text-align: center;
-    font-weight: 600;
-    line-height: 2rem;
+    font-weight: 700;
+    line-height: 29px;
 }
 
 .signText {
@@ -96,7 +96,7 @@ body a:hover{
 }
 
 .place {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #dfe4e8;
     margin-bottom: 1rem;
     color: rgb(0, 30, 80);
     margin-right: auto;
@@ -118,6 +118,7 @@ label {
 }
 
 button {
+    margin-top: 1rem;
     width: 97px;
     height: 43px;
     border: none;
@@ -134,6 +135,7 @@ button {
     display: flex;
     flex-direction: column;
     margin:auto;
+    width:100%;
 }
 .accPass{
     display: flex;
@@ -171,13 +173,14 @@ button {
     display: flex;
    gap: 22px;
   padding: 3rem 0;
+  width: 100%;
   
 }
 .colOne{
     width: 240px;
     height: 119px;
     box-sizing: content-box;
-    border: 1px solid grey;
+    border: 1px solid #dfe4e8;
     text-align: center;
     margin: auto;
     padding-top: 49px;
@@ -232,7 +235,7 @@ font-size: 13px;
     }
     
     .colOne{
-        width: 589px;
+        width: 48%;
         height: 103px;
     }
     .footer{
