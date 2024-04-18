@@ -115,20 +115,37 @@ label {
 
 .lg {
     margin: auto;
+    padding: 21px;   
 }
 
-button {
+button{
+    width: 7rem;
     margin-top: 1rem;
-    width: 97px;
-    height: 43px;
+    text-decoration: none;
     border: none;
     font-size: 13px;
     cursor: pointer;
     font-weight: bold;
-    border-radius: 2rem;
+    border-radius: 12px;
     border: 1px solid #dfe4e8;
     background-color: #dfe4e8;
     color: #6a767d;
+   height: 3rem;
+}
+
+button .hv{
+    text-decoration-line: none;
+    color: white;
+}
+
+button:hover{
+    background-color: blue;
+   
+}
+
+.hv:hover{
+    color: white;
+    font-weight: bold;
 }
 
 .accountRest{
