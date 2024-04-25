@@ -262,7 +262,7 @@ font-size: 13px;
         margin: auto;
     }
     .backLogin{
-        /* display: none; */
+        display: none;
     }
 
     }
